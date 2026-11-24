@@ -7,6 +7,8 @@ by the Chase Bliss MOOD MkII. An always-listening micro-looper meets a separate
 set of spatial effects. Catch something you just played, reshape it, then play
 over whatever it becomes.
 
+<img src="assets/hothouse-pedal.jpg" alt="Cleveland Music Co. Hothouse pedal" width="440">
+
 **Version 0.3.0 · Stereo Hothouse / Daisy Seed · Early, playable, still evolving**
 
 ## Two sides. Plenty to get lost in.
@@ -90,8 +92,13 @@ You'll need a **stereo Hothouse with a Daisy Seed**, USB access, and an installe
 Daisy bootloader. Development used a rev 7 Seed. Atmosphere replaces the pedal's
 current effects application.
 
-Start with the [build and installation guide](docs/BUILD.md). It covers building
-the firmware, USB flashing and recovery. Use stereo cabling for both channels;
+**No compiler needed:** download the [v0.3.0 ready-to-flash ZIP](https://github.com/breakall/hothouse-atmosphere/releases/download/v0.3.0/atmosphere-v0.3.0.zip),
+unzip it, and follow the included **FLASHING.md**. The [release page](https://github.com/breakall/hothouse-atmosphere/releases/tag/v0.3.0)
+also has the standalone firmware and SHA-256 checksums.
+
+The [simple flashing guide](docs/FLASHING.md) covers installation and recovery;
+the [build guide](docs/BUILD.md) is only needed if you want to compile it yourself.
+Use stereo cabling for both channels;
 the firmware doesn't automatically duplicate a mono input.
 
 ## Set a sound over USB. Tweak it by hand.

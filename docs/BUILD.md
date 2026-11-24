@@ -2,6 +2,10 @@
 
 Current firmware: 0.3.0. Target: stereo Hothouse with a Daisy Seed.
 
+Want to play without compiling? Download the
+[v0.3.0 release](https://github.com/breakall/hothouse-atmosphere/releases/tag/v0.3.0)
+and follow [the flashing guide](FLASHING.md).
+
 ## Build
 
 
