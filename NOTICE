@@ -1,0 +1,14 @@
+Atmosphere original firmware sources: GPL-3.0-or-later.
+
+firmware/vendor/hothouse.cpp and firmware/vendor/hothouse.h:
+Copyright (C) 2024 Cleveland Music Co. <code@clevelandmusicco.com>
+GPL-3.0-or-later, from https://github.com/clevelandmusicco/HothouseExamples
+Revision acc1d1e58b13fc4552b013c4536487192485d516.
+Their copyright and license notices are preserved. The stock driver's
+CheckResetToBootloader is not used; main.cpp owns bootloader entry.
+
+libDaisy is obtained separately in deps/ using tools/setup.py and retains its
+upstream license notices, including those of its bundled vendor components.
+
+MOOD and Chase Bliss are names of their respective owners, used only to
+identify the behavioral reference. This project is not endorsed by them.
